@@ -118,7 +118,7 @@ export default function ContactForm() {
   }
 
   return (
-    <section className="py-24 bg-gradient-to-br from-slate-50 to-blue-50">
+    <section id="contact" className="py-24 bg-gradient-to-br from-slate-50 to-blue-50">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
