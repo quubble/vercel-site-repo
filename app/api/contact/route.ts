@@ -77,7 +77,7 @@ export async function POST(request: NextRequest) {
     // Send email notification
     const transporter = nodemailer.createTransporter({
       host: process.env.SMTP_HOST || "smtp.gmail.com",
-      port: Number.parseInt(process.env.SMTP_PORT || "587"),
+      port: Number.parseInt(process.env.SMTP_PORT || "465"),
       secure: false,
       auth: {
         user: process.env.SMTP_USER,
